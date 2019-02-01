@@ -631,3 +631,6 @@ nav ul li a {
 .credits {
   font-size: 13px;
 }
+.projects-img {
+  border: 5px solid black;
+}
