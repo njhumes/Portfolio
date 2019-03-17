@@ -639,8 +639,12 @@ nav ul li a {
   border: 2px solid black;
 }
 .projects-img:hover {
-  transform: scale(1.1)
+  transform: scale(1.1);
 }
+.portfolio-thumbnail:hover {
+  transform: scale(1.1);
+}
+
 #down-arrow {
   position: absolute;
   /* margin-top: 15%;
