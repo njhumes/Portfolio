@@ -81,7 +81,7 @@ $(document).ready(function() {
     typed.typed({
       strings: ["Nick Humes."],
       typeSpeed: 120,
-      loop: false,
+      loop: true,
     });
   });
 
