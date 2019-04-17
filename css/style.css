@@ -267,7 +267,7 @@ nav ul li a {
   font-size: 13px;
   letter-spacing: 5px;
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   text-transform: capitalize;
   /* color: #fff; */
   color: black;
@@ -400,6 +400,8 @@ nav ul li a {
 #portfolio {
   position: relative;
   padding-bottom: 50px;
+  /* background-color: #f4eadf; */
+  background-color: #f7f7f7;
 }
 
 #portfolio .portfolio-list {
@@ -638,12 +640,12 @@ nav ul li a {
 .projects-img {
   border: 2px solid black;
 }
-.projects-img:hover {
+/* .projects-img:hover {
   transform: scale(1.05);
 }
 .portfolio-thumbnail:hover {
   transform: scale(1.05);
-}
+} */
 
 #down-arrow {
   position: absolute;
@@ -673,3 +675,30 @@ nav ul li a {
     transform: translateY(-15px);
   }
 } */
+#my-email {
+  font-size: 12px;
+  margin-top: 0;
+  margin-bottom: 2px;
+  text-transform: lowercase
+
+}
+#modal-text p {
+    font-family: 'Poppins', helvetica;
+    font-size: 16px;
+    color:  #292929;
+}
+#modal-text {
+    font-family: 'Poppins', helvetica;
+    font-size: 16px;
+    color:  #292929;
+}
+#modal-text a {
+  font-family: 'Poppins', helvetica;
+  font-size: 16px;
+  color: #b8a07e;
+}
+.modal-title {
+  font-family: 'Poppins', helvetica;
+  font-size: 22px;
+  color: #292929;
+}

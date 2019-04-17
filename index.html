@@ -72,6 +72,7 @@
       <div class="header-content">
         <h1>I'm <span class="typed"></span></h1>
         <p>full stack web developer</p>
+        <p id='my-email'>njhumes@gmail.com</p>
 
         <ul class="list-unstyled list-social">
           <li><a href="https://github.com/njhumes"><i class="ion-social-github"></i></a></li>
@@ -122,34 +123,156 @@
         </div>
           <div class="portfolio-container">
             <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding webdesig photographyn">
-            <a class="" href="https://shredder.herokuapp.com/ ">
-              <img class='projects-img' src="images/portfolio/shredder3.png" alt="img">
+            <!-- <a class="" href="https://shredder.herokuapp.com/ "> -->
+              <img class='projects-img' src="images/portfolio/shredder3.png" data-toggle='modal' data-target="#shreddr-modal" alt="img">
+              <div class="modal fade" id="shreddr-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">Shreddr</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body" id='modal-text'>
+                      <p>Full-stack, responsive single page application using React which users can see a ski resorts' trails and rate them.
+                      The app displays current weather and snow conditions using an API to render the most up-to-date conditions available.</p>
+                      <p>Built with: React | MongoDB | Express | Node.js | DarkSky API
+                      </p>
+                      <a href='https://shredder.herokuapp.com/'target="_blank" >Website</a><br/><br/>
+                      Github:<br/> <a href='https://github.com/njhumes/Shredder-React' target="_blank">Front End</a> | 
+                      <a href='https://github.com/njhumes/Shredder-API' target="_blank">Back End</a>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </a>
           </div>
 
             <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding webdesig photographyn">
-            <a class="" href="https://billhub-react.herokuapp.com/">
-              <img class='projects-img' src="images/portfolio/billhub-fit.png" alt="img">
+            <!-- <a class="" href="https://billhub-react.herokuapp.com/"> -->
+              <img class='projects-img' src="images/portfolio/billhub-fit.png" data-toggle='modal' data-target="#billhub-modal" alt="img">
+              <div class="modal fade" id="billhub-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">Bill Hub</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body" id='modal-text'>
+                      <p>Rebuilt the back-end server with Java for a peer's full-stack CRUD app where users can view and track legislative
+                      bills</p>
+                      <p>Built with: Java | React</p>
+                      <a href='https://billhub-react.herokuapp.com/' target='_blank'>Website</a><br/><br/>
+                      Github:<br/>
+                      <a href='https://github.com/njhumes/bill-hub-react' target='_blank'>Front End</a> | 
+                      <a href='https://github.com/njhumes/bill-hub-java' target='_blank'>Back End</a>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </a>
           </div>    
 
             <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding webdesig photographyn">
-            <a class="" href="https://orderve-app.herokuapp.com/">
-              <img class='projects-img' src="images/orderve-sm.png" alt="img">
+            <!-- <a class="" href="https://orderve-app.herokuapp.com/"> -->
+              <img class='projects-img' src="images/orderve-sm.png" data-toggle='modal' data-target="#orderve-modal" alt="img">
+              <div class="modal fade" id="orderve-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">Orderve</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body" id='modal-text'>
+                      <p>Full-stack web app which allows users to create and request a personal chef or bartender for their event or request to work at the event</p>
+                      <p>Built with: HTML | CSS | Bootstrap | JavaScript | MongoDB | Express | Node.js</p>
+                      <a href='https://orderve-app.herokuapp.com' target='_blank'>Website</a><br/><br/>
+                      <a href='https://github.com/njhumes/orderve' target='_blank'>Github</a>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </a>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits photography">
-            <a class="" href="https://njhumes.github.io/Defend-the-Wall/">
-              <img class='projects-img' src="images/portfolio/defendthewall3.png" alt="img">
+            <!-- <a class="" href="https://njhumes.github.io/Defend-the-Wall/"> -->
+              <img class='projects-img' src="images/portfolio/defendthewall3.png" data-toggle='modal' data-target="#defendthewall-modal" alt="Defend The Wall Game">
+              <div class="modal fade" id="defendthewall-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">Defend the Wall Browser Game</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body" id='modal-text'>
+                      <p>JavaScript browser game based on the HBO series, Game of Thrones. You play as Jon Snow fighting against an army or randomized enemies and spawns the Night King final boss after a certain score limit is reached.</p>
+                      <p>Built with: HTML | CSS | JavaScript | jQuery</p>
+                      <a href='https://njhumes.github.io/Defend-the-Wall/' target='_blank'>Website</a><br/><br/>
+                      <a href='https://github.com/njhumes/Defend-the-Wall' target='_blank'>Github</a>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </a>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits webdesign">
-            <a class="" href="https://njhumes.github.io/Tamagotchi/">
-              <img class='projects-img' src="images/portfolio/simpsonsnew.png" alt="img">
+            <!-- <a class="" href="https://njhumes.github.io/Tamagotchi/"> -->
+              <img class='projects-img' src="images/portfolio/simpsonsnew.png" data-toggle='modal' data-target="#exampleModalCenter" alt="img">
             </a>
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+              aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Tamagotchi App</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body" id='modal-text'>
+                    <p>Simpsons inspired browser game based on the popular toy, Tamagotchi.</p>
+                    <p>Built with: HTML | CSS | JavaScript</p> 
+                    <a href='https://njhumes.github.io/Tamagotchi/' target='_blank'>Website</a><br/><br/>
+                    <a href='https://github.com/njhumes/Tamagotchi' target='_blank'>Github</a>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+<!-- Button trigger modal
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
 
         </div>
       </div>
@@ -218,7 +341,7 @@
 
             <i class="ion-laptop"></i>
             <span>React</span>
-            <p class="separator">Efficient building pages using the React framework</p>
+            <p class="separator">Efficient building pages using React </p>
 
           </div>
 
@@ -234,7 +357,7 @@
 
             <i class="ion-social-javascript"></i>
             <span>JavaScript</span>
-            <p class="separator">Proficient in writing functional pages using JavaScript and jQuery</p>
+            <p class="separator">Proficient in writing functional applications using JavaScript and jQuery</p>
 
           </div>
 
@@ -242,7 +365,7 @@
 
             <i class="ion-coffee"></i>
             <span>Java</span>
-            <p class="separator">Experience creating applications with Java</p>
+            <p class="separator">Experience creating back-end servers with Java and Spring Boot</p>
 
           </div>
 
