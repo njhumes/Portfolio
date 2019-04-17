@@ -506,14 +506,14 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
-.journal-block .journal-info .journal-txt h4 a:hover {
+/* .journal-block .journal-info .journal-txt h4 a:hover {
   color: #b8a07e;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
   -webkit-transition: all 0.5s ease-in-out 0s;
   transition: all 0.5s ease-in-out 0s;
-}
+} */
 
 .journal-block .journal-info .journal-txt p {
   margin: 0;
@@ -619,11 +619,11 @@ nav ul li a {
 
 #footer .socials-media ul li a:hover {
   color: #b8a07e;
-  -moz-transition: all 0.5s ease-in-out 0s;
+  /* -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
   -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s; */
 }
 
 #footer p {
@@ -640,12 +640,6 @@ nav ul li a {
 .projects-img {
   border: 2px solid black;
 }
-/* .projects-img:hover {
-  transform: scale(1.05);
-}
-.portfolio-thumbnail:hover {
-  transform: scale(1.05);
-} */
 
 #down-arrow {
   position: absolute;
